@@ -4,7 +4,7 @@ terraform {
     organization = "bywhite"
 
     workspaces {
-      name = "imm-tfcb"
+      name = "tfcb-imm"
     }
   }
 
