@@ -1,8 +1,8 @@
-# domain1.tf     This file creates the first domain in the pod
+# domain2.tf     This file creates the first domain in the pod
 
 
 
-module "intersight_policy_bundle" {
+module "intersight_policy_bundle2" {
 #  source = "github.com/pl247/tf-intersight-policy-bundle"
   source = "github.com/bywhite/module-tfcb-imm"
 
