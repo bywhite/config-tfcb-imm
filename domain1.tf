@@ -10,7 +10,7 @@ module "intersight_policy_bundle" {
   organization    = data.intersight_organization_organization.default.id
 
   # every policy created will have this prefix in its name
-  policy_prefix = "tfcb-ofl-pod1"
+  policy_prefix = "tfcb-ofl-pod1-vmw1"
   description   = "Built by Terraform Cloud with Intersight"
 
   # Fabric Interconnect 6454 ethernet config specifics
