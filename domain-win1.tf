@@ -1,4 +1,4 @@
-# domain2.tf     This file creates the first domain in the pod
+# domain-win1.tf     This file creates the first domain in the pod
 
 
 
