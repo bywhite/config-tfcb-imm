@@ -8,6 +8,7 @@ module "intersight_policy_bundle2" {
 
   # external sources
   organization    = data.intersight_organization_organization.default.id
+  # my_pod_macpool_pool = intersight_macpool_pool.pod_macpool_pool
 
   # every policy created will have this prefix in its name
   policy_prefix = "tfcb-ofl-pod1-win1"

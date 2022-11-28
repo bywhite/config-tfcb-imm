@@ -22,3 +22,13 @@ variable "organization" {
     default = "default"
 }
 
+variable "pod_prefix" {
+    type = string
+    default = "ofl-pod1"
+}
+
+variable "pod-mac-block" {
+  type         = string
+  description  = "beginning MAC block of size 255"
+  default      = "00:CA:FE:01:00:01"
+}
