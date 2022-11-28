@@ -1,0 +1,24 @@
+
+
+Terraform Topics
+    Intersight Object: Intersight API > Intersight Provider > Intersight Resource Parameters
+        Abstraction reduces complexity  - may add complexity somewhere else
+        Required vs optional Parameters
+        Logical Grouping of Objects (Resources)
+    Pod-wide resources vs Domain-wide resources
+    Groupings of resource objects - same file vs separate files in main
+        Main.tf
+            POD level shared configs
+            Domain specific configs >> Module Call
+
+
+Terraform Modules explained
+    McD drive through menu - combo# is a module
+        McD is provider - inside use ingredients (REST API) to make recipes (resources) to make food for orders (modules)
+Main >> Modules >> Resources >>>> Providers >> REST API
+
+
+Terraform Code Management & Execution
+    Terraform main - change code, commit code & apply
+    Terraform module - change code, commit code, init -upgrade, apply
+
