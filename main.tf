@@ -25,6 +25,7 @@ provider "intersight" {
 data "intersight_organization_organization" "default" {
     name = "default"
 }
+
 # print default org moid
 output "org_default_moid" {
     value = data.intersight_organization_organization.default.moid
@@ -54,12 +55,12 @@ module "intersight_policy_bundle" {
 
 
 # starting values for wwnn, wwpn-a/b and mac pools (size 255)
-  # wwnn-block   = "20:00:00:CA:FE:00:00:01"
-  # wwpn-a-block = "20:00:00:CA:FE:0A:00:01"
-  # wwpn-b-block = "20:00:00:CA:FE:0B:00:01"
+  wwnn-block   = "20:00:00:CA:FE:00:00:01"
+  wwpn-a-block = "20:00:00:CA:FE:0A:00:01"
+  wwpn-b-block = "20:00:00:CA:FE:0B:00:01"
 
 # vNIC Starting MAC Block
-  # mac-block    = "00:CA:FE:00:00:01"
+  mac-block    = "00:CA:FE:00:00:01"
 
 
 # IMC and FI environment specifics
