@@ -66,7 +66,8 @@ module "intersight_policy_bundle" {
   imc_access_vlan    = 999
   imc_admin_password = "Cisco123"
 
-  ntp_servers = ["ca.pool.ntp.org"]
+  # ntp_servers = ["ca.pool.ntp.org"]
+  ntp_servers = ["time-a-wwv.nist.gov"]
 
   dns_preferred = "172.22.16.254"
   dns_alternate = "172.22.16.253"
